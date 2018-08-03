@@ -28,7 +28,7 @@ public class MovieController {
 
 	
 	@Autowired
-	public MovieController(@Qualifier("MovieServiceImpl") MovieService movieservice) {
+	public MovieController(MovieService movieservice) {
 		super();
 		
 		this.movieservice = movieservice;

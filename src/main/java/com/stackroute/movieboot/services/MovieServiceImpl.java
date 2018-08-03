@@ -12,7 +12,7 @@ import com.stackroute.movieboot.domain.Movie;
 import com.stackroute.movieboot.exceptions.MovieNotFoundException;
 import com.stackroute.movieboot.repository.MovieRepository;
 @Service
-@Qualifier("MovieServiceImpl")
+
 public class MovieServiceImpl implements MovieService{
 
 	private MovieRepository movieRepository;
